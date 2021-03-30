@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 4</title>
+</head>
+<body>
+    <body background="https://englishlive.ef.com/es-mx/blog/wp-content/uploads/sites/8/2018/09/Vocabulario-en-inglés-que-todo-médico-debe-conocer.jpg">
+    <header>
+        <nav></nav>
+    </header>
+
+    <main>
+
+        <form action="registro.php" method="GET">
+           
+            <table align="center">
+                <tr>
+                    <td><label for="Nombre">Nombre:</label></td>
+                    <td><input type="text" name="Nombre" id="Nombre" value=""> </td>
+                </tr>
+                <tr>
+                    <td><label>Edad:</label></td>
+                    <td>
+                        <label>
+                            <input type="number" name="Edad" id="Edad" min="0"> Años
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="NombreR">Nombre de Responsable:</label></td>
+                    <td><input type="text" name="NombreR" id="NombreR" value=""> </td>
+                </tr>
+                <tr>
+                    <td><label for="Relación">Relación:</label></td>
+                    <td><input type="text" name="Relación" id="Relación" value=""> </td>
+                </tr>
+                <tr>
+                    <td><label for="CURP">CURP:</label></td>
+                    <td><input type="text" name="CURP" id="CURP" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="Seguro">¿Cuenta con seguro médico?</label></td>
+                    <td>
+                        <label>
+                            <input type="radio" value="1" name="estatus" id="estatus"> Si
+                        </label>
+                        <label>
+                            <input type="radio" value="2" name="estatus" id ="estatus"> No
+                        </label>
+                        <input type="text" name="Seguro" id="Seguro" value="">(Especifique)
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Habitos">Habitos personales:</label></td>
+                    <td>
+                        <select name="Habitos" id="Habitos">
+                            <option value="1">..Seleccione una opción..</option>
+                            <option value="2">Fumar</option>
+                            <option value="3">Hacer ejercicio</option>
+                            <option value="4">Consume enervantes</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="TipoSangre">Tipo de sangre:</label></td>
+                    <td>
+                        <select name="TipoSangre" id="TipoSangre">
+                            <option value="1">..Seleccione una opción..</option>
+                            <option value="2">O-</option>
+                            <option value="3">O+</option>
+                            <option value="4">A-</option>
+                            <option value="5">A+</option>
+                            <option value="6">B-</option>
+                            <option value="7">B+</option>
+                            <option value="8">AB-</option>
+                            <option value="3">AB+</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Alergias">Alergias:</label></td>
+                    <td>
+                        <label>
+                            <input type="radio" value="1" name="estatus" id="estatus"> Si
+                        </label>
+                        <label>
+                            <input type="radio" value="2" name="estatus" id ="estatus"> No
+                        </label>
+                        <input type="text" name="Alergia" id="Alergia" value="">(Especifique)
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Comunicación">Nuímero de comunicación:</label></td>
+                    <td>
+                        <input type="text" name="promedio" id="promedio" value=""> Número secundario:
+                        <label>
+                            <input type="number" name="semestre" id="semestre" min="1">
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Registrarse"></td>
+                    <td><input type="reset" value="Limpiar campos"></td>
+            </table>
+         </form>
+
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</body>
+</html>
